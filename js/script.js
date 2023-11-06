@@ -77,7 +77,7 @@ function randomValues() {
      
 }
 
-
+buttonContinue.addEventListener("click", randomValues);
 
  window.addEventListener("load", randomValues);
 
