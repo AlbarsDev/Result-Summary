@@ -100,9 +100,35 @@ section.summary-component {
   padding: 15px 0;
   border: none;
   border-radius: 25px;
-  background-color: #303B59;
+  background-color: #6635c8;
   font-size: 16px;
   font-weight: 600;
   color: #FFFFFF;
+  transition: 0.3s ease;
   cursor: pointer;
+}
+
+.summary-component-button:hover .button {
+  filter: contrast(150%);
+}
+
+@media (max-width: 800px) {
+  .summary-component-list {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    overflow: auto;
+  }
+
+  .reaction, .memory, .verbal, .visual {
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+  }
+
+  .reaction-icon-title, .memory-icon-title, .verbal-icon-title, .visual-icon-title {
+    flex-direction: column;
+    gap: 10px;
+    overflow: auto; 
+  }
 }
