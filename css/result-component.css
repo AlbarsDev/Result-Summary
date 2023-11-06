@@ -55,9 +55,9 @@ section.result-component-danger {
   justify-content: center;
   padding: 45px;
   border-radius: 50%;
-  background:linear-gradient(to bottom, #4B23CA, #5C45ED);
-  color: #B9A9FD;
+  color: #ffffff;
   font-weight: bold;
+  box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.6);
 }
 
 .numbers-warning {
@@ -68,9 +68,9 @@ section.result-component-danger {
   justify-content: center;
   padding: 45px;
   border-radius: 50%;
-  background: linear-gradient(to bottom, #ffba08, #f48c06);
-  color: #B9A9FD;
-  font-weight: bold;
+  color: #ffffff;
+  font-weight: bold; 
+  box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.6);
 }
 
 .numbers-danger {
@@ -81,10 +81,12 @@ section.result-component-danger {
   justify-content: center;
   padding: 45px;
   border-radius: 50%;
-  background: linear-gradient(to bottom, #d00000, #6a040f);
-  color: #B9A9FD;
+  color: #ffffff;
   font-weight: bold;
+  box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.6);
 }
+
+
 
 .numbers span:nth-child(1) {
   font-family: "Rubik";
@@ -129,7 +131,18 @@ section.result-component-danger {
 .result-component-paragraph p{
   width: 75%;
   margin: 0;
-  color: #CAC4FF;
+  color: #ffffff;
   font-family: "Rubik";
   line-height: 22px;
+}
+
+.container-section {
+  width: 100%; 
+  height: auto;
+}
+
+@media (min-width: 600px) {
+  .container-section {
+    width: 80%; 
+  }
 }
